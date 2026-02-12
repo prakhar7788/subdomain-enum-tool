@@ -13,7 +13,7 @@ fi
 
 TARGET=$1
 WORDLIST=$2
-DEFAULT_WORDLIST="/usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt"
+DEFAULT_WORDLIST="/wordlistlocation"
 
 if [ -z "$WORDLIST" ]; then
     if [ -f "$DEFAULT_WORDLIST" ]; then
